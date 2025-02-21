@@ -8,6 +8,12 @@ In this file, we support the latest builds of versions 14.04, 16.04, 18.04, and 
 
 Blog --> https://gmusumeci.medium.com/how-to-deploy-an-ubuntu-linux-ec2-instance-in-aws-using-terraform-330199d93dd8
 
+# What it does
+Once the base server is deployed, there are a number of scripts that install and setup an environment for testing.
+
+1. Deploys an RDP server, to allow upto 16 users to run Tools for REST-API labs - postman, visual studio code, and ansible.
+
+2. Installs an instance of juiceshop in docker.
 
 # Howto
 Login with user "ubuntu". SSH access is with pem key. RDP access password is the instance-id.  
